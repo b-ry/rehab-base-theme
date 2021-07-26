@@ -1,0 +1,9 @@
+name: Base theme
+description: "Custom base theme"
+core: 8.x
+type: theme
+base theme: classy
+
+libraries:
+  - centura_theme/global-styling
+  - centura_theme/global-scripts

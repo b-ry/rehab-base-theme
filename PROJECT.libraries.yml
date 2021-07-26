@@ -1,0 +1,18 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      dist/css/main.css: {}
+
+global-scripts:
+  version: 1.x
+  js:
+    dist/js/bootstrap.min.js: {}
+    dist/js/scripts.js: {}
+    https://www.drupal.org/docs/8/api/javascript-api/javascript-api-overview: {type: external}
+    https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js: {type: external}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.cookie
